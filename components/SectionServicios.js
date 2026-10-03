@@ -112,8 +112,14 @@ export default function SectionServicios() {
               bg-accent/10 border border-accent/30
               text-accent text-[11px] tracking-[2px] font-medium uppercase
             ">
-            ② Servicios
+            Servicios
           </span>
+          <h2 className="mt-5 text-white text-[26px] md:text-[36px] font-medium leading-[1.15] tracking-[-0.5px]">
+            Mantenimiento preventivo y puesta a punto
+          </h2>
+          <p className="mt-3 text-white/55 text-[14px] md:text-[15px] max-w-xl mx-auto">
+            Cuidado de consolas, PC y celulares en nuestro local de Mar del Plata.
+          </p>
         </div>
 
         {/* Grid de servicios: 2 cols en mobile, 4 cols en desktop */}

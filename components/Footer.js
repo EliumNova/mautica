@@ -1,4 +1,4 @@
-import { CONTACTO, REDES, NEGOCIO } from "@/lib/config";
+import { CONTACTO, REDES, NEGOCIO, FISCAL } from "@/lib/config";
 
 const USE_LOGO = true; // poné true cuando tengas el logo
 
@@ -39,7 +39,10 @@ export default function Footer() {
             Mautica
           </p>
           <p className="text-white/50 text-[10px] md:text-[11px] tracking-[2.5px] uppercase mt-1">
-            Servicio Técnico
+            Mantenimiento y cuidado de equipos
+          </p>
+          <p className="text-white/70 text-[14px] mt-6 text-center">
+            Consultas y presupuestos · Visitá nuestro local en {NEGOCIO.ciudad}
           </p>
         </div>
 
@@ -123,9 +126,15 @@ export default function Footer() {
           flex flex-col-reverse md:flex-row items-center justify-between gap-4
           text-[12px] text-white/40
         ">
-          <p className="m-0">
-            © {year} Mautica · Todos los derechos reservados
-          </p>
+          <div className="text-center md:text-left">
+            <p className="m-0">
+              © {year} Mautica · Todos los derechos reservados
+            </p>
+            <p className="m-0 mt-1">
+              {FISCAL.razonSocial} · Titular: {FISCAL.titular} · CUIT{" "}
+              {FISCAL.cuit} · {CONTACTO.direccionLarga}
+            </p>
+          </div>
           <div className="flex gap-5">
             <a
               href="/terminos"

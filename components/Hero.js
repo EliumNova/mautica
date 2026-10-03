@@ -79,13 +79,13 @@ export default function Hero() {
         </h1>
 
         <p className="mt-[10px] text-[11px] md:text-[13px] uppercase tracking-[2.8px] text-white/55">
-          Servicio Técnico
+          Mantenimiento y puesta a punto
         </p>
 
         <div className="w-8 h-px bg-white/30 mx-auto my-5 md:my-6" />
 
         <p className="mb-7 md:mb-9 text-[12px] md:text-[14px] uppercase tracking-[2.2px] text-white/75">
-          Reparamos lo que amás
+          Cuidamos lo que amás
         </p>
 
         <a

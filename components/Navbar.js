@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NAV_LINKS } from "@/lib/config";
 
 const USE_LOGO = true; // poné true cuando tengas el logo
 

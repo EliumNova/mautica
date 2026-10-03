@@ -4,10 +4,10 @@ import Image from "next/image";
 const KICKER = "El equipo";
 const TITULO = ["Tres personas.", "Un solo objetivo."];
 const DESCRIPCION =
-  "Somos Mautica. Reparamos todo tipo de dispositivos electrónicos desde Mar del Plata con atención real y garantía en cada trabajo.";
+  "Somos Mautica. Desde nuestro local en Mar del Plata hacemos mantenimiento preventivo, limpieza profunda y puesta a punto de consolas, PC y celulares, con atención real en cada trabajo.";
 
 const FOTO = "/img/equipo.png";
-const FOTO_ALT = "El equipo de Mautica trabajando";
+const FOTO_ALT = "El equipo de Mautica en su local de Mar del Plata";
 // ───────────────────────────────────────────────────────────────────
 
 export default function SectionEquipo() {

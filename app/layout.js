@@ -4,16 +4,17 @@ import "./globals.css";
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-montserrat", // 👈 esto falta
+  variable: "--font-montserrat",
 });
 
 export const metadata = {
-  title: "Mautica · Servicio Técnico",
-  description: "Reparación, venta y cursos. Reparamos lo que amás.",
+  title: "Mautica · Mantenimiento preventivo y puesta a punto en Mar del Plata",
+  description:
+    "Limpieza profunda, mantenimiento preventivo y puesta a punto de consolas, PC y celulares. Accesorios gamer. Visitá nuestro local en Rivadavia 3188, Mar del Plata.",
 
   openGraph: {
-    title: "Mautica · Servicio Técnico",
-    description: "Reparamos lo que amás.",
+    title: "Mautica · Mantenimiento y puesta a punto",
+    description: "Cuidamos lo que amás. Local en Mar del Plata.",
     type: "website",
     url: "https://mautica.com.ar",
     images: [
@@ -21,15 +22,15 @@ export const metadata = {
         url: "https://mautica.com.ar/img/logo.png",
         width: 1200,
         height: 630,
-        alt: "Mautica Servicio Técnico",
+        alt: "Mautica · Mantenimiento y cuidado de equipos",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Mautica · Servicio Técnico",
-    description: "Reparamos lo que amás.",
+    title: "Mautica · Mantenimiento y puesta a punto",
+    description: "Cuidamos lo que amás. Local en Mar del Plata.",
     images: ["https://mautica.com.ar/img/logo.png"],
   },
 
