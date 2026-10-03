@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* Offset cuando saltamos a un #ancla, para que no quede tapada por la navbar */
+  scroll-padding-top: 4rem;
+}
+
+html,
+body {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Respeta usuarios con sensibilidad al movimiento */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
